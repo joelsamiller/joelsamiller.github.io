@@ -1,0 +1,47 @@
+- name: Python
+  type: lang
+
+- name: R
+  type: lang
+
+- name: C
+  type: lang
+
+- name: SQL
+  type: lang
+
+- name: Git
+  type: plat
+
+- name: Linux
+  type: plat
+
+- name: AWS
+  type: plat
+
+- name: GitHub
+  type: plat
+
+- name: Regression
+  type: tech
+
+- name: Machine Learning
+  type: tech
+
+- name: Linear Algebra
+  type: tech
+
+- name: Statistics
+  type: tech
+
+- name: Leadership
+  type: soft
+
+- name: Teamwork
+  type: soft
+
+- name: Communication
+  type: soft
+
+- name: Presentations
+  type: soft

@@ -1,0 +1,55 @@
+- name:
+    detail: Principal Data Scientist @ UK Health Security Agency.
+    i18n: re
+  desc:
+    detail: Health Analytics and Automation Team
+    i18n: re_des
+  date:
+    detail: July 2023 - Present
+    i18n: re_date
+  job:
+    detail: London
+    i18n: re_job
+  icon: fa-search
+
+- name:
+    detail: Senior Data Scientist @ UK Health Security Agency.
+    i18n: re
+  desc:
+    detail: Health Analytics and Automation Team
+    i18n: re_des
+  date:
+    detail: April 2022 - July 2023
+    i18n: re_date
+  job:
+    detail: London
+    i18n: re_job
+  icon: fa-search
+
+- name:
+    detail: PhD @ Univeristy of Nottingham
+    i18n: re
+  desc:
+    detail: Physics
+    i18n: re_des
+  date:
+    detail: October 2017 - August 2021
+    i18n: re_date
+  job:
+    detail: Nottingham
+    i18n: re_job
+  icon: fa-search
+
+- name:
+    detail: MSci @ Univeristy of Nottingham
+    i18n: re
+  desc:
+    detail: Physics with Astronomy
+    i18n: re_des
+  date:
+    detail: September 2013 - June 2017
+    i18n: re_date
+  job:
+    detail: Nottingham
+    i18n: re_job
+  icon: fa-search

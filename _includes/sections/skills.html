@@ -1,0 +1,58 @@
+<div class="container">
+  <div class="row m-b-lg">
+    <div class="col-lg-12 text-center" id="i18_skills">
+      <div class="navy-line"></div>
+      <h1><span data-i18n="skills.my_skills">My Skills</span></h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <p><a href="{{ 'static/pdf/cv-joel-miller.pdf' | prepend: site.baseurl }}"><i class="fa fa-file-pdf-o fa-3x"></i><br>CV</i></a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 text-center">
+      <h2><span data-i18n="skills.my_skills">Programming Languages</span></h2>
+      <div class="col-lg-12 text-center wow fadeInLeft">
+      {% for skill in site.data.skills %}
+      {% if skill.type == "lang" %}
+        <p>{{ skill.name }}</p>
+      {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+    <div class="col-lg-3 text-center">
+      <h2><span data-i18n="skills.my_skills">Frameworks & Platforms</span></h2>
+      <div class="col-lg-12 text-center wow fadeInLeft">
+      {% for skill in site.data.skills %}
+      {% if skill.type == "plat" %}
+        <p>{{ skill.name }}</p>
+      {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+    <div class="col-lg-3 text-center">
+      <h2><span data-i18n="skills.my_skills">Technical Skills</span></h2>
+      <div class="col-lg-12 text-center wow fadeInRight">
+      {% for skill in site.data.skills %}
+      {% if skill.type == "tech" %}
+        <p>{{ skill.name }}</p>
+      {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+    <div class="col-lg-3 text-center">
+      <h2><span data-i18n="skills.my_skills">Soft Skills</span></h2>
+      <div class="col-lg-12 text-center wow fadeInRight">
+      {% for skill in site.data.skills %}
+      {% if skill.type == "soft" %}
+        <p>{{ skill.name }}</p>
+      {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <p><br><br></p>
+  </div>
+</div>

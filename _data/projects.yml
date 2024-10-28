@@ -1,0 +1,17 @@
+- name: 'Disc Tracker'
+  i18n: 'disc-tracker'
+  url: '/joelsamiller/DiscTracker'
+  img: 'https://api.iconify.design/vscode-icons/file-type-python.svg'
+  desc: 'Takes stereo input of video files where a flying disc is thrown, then implements a Gaussian mixture model and blob detection to identify foreground objects. A Jonker-Volgenant assignment algorithm, with cost matrix given by distances between previous and new locations, is used to track objects over time. Finally, tracks corresponding to the flying disc are de-projected to give the path in three dimensions.'
+
+- name: 'Virtual Stall Count'
+  i18n: 'virtual-stall-count'
+  url: '/joelsamiller/VirtualStallCount'
+  img: 'https://api.iconify.design/vscode-icons/file-type-kotlin.svg'
+  desc: 'Simple Android app designed to support COVID-19 measures for the sport of ultimate. Plays a voice counting numbers from the selected start number up to 10 or until the user releases the button.'
+
+- name: 'The N-Body Problem'
+  i18n: 'n-body-problem'
+  url: '/joelsamiller/The-N-Body-Problem'
+  img: 'https://api.iconify.design/vscode-icons/file-type-python.svg'
+  desc: 'Simulates the motions of many objects interacting via gravity given their initial conditions. Equations of motion are written as a series of first-order ordinary differential equations which are then solved using the forward Euler or Leapfrog methods.'
